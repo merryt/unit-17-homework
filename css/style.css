@@ -1,0 +1,23 @@
+body {
+  background-color: blue;
+}
+
+.navigation-container {
+  display: flex;
+}
+
+.navigation-container div {
+  padding: 10px;
+  background-color: gray;
+}
+
+.navigation-container div:hover {
+  background-color: white;
+}
+
+.nav li {
+  display: inline-block;
+  list-style: none;
+  padding: 10px;
+  background-color: gray;
+}
